@@ -1,0 +1,9 @@
+/* Minimal responsive styles */
+body{font-family:Arial,Helvetica,sans-serif;margin:16px;color:#222}
+header h1{margin:0 0 8px}
+nav{margin-bottom:12px}
+form label{display:block;margin:6px 0}
+ul{padding-left:18px}
+@media (min-width:700px){
+  body{max-width:900px;margin:20px auto}
+}
